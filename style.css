@@ -1,0 +1,85 @@
+/*===============
+Common Styles
+=================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f9fbfc;
+  font-family: 'Poppins', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 80%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ==================
+  Header Section
+=====================*/
+header {
+  margin: 20px 0 50px 0;
+}
+
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 900;
+  color:#FCAE61;
+
+}
+.logo .navy-color {
+  color: #242f51;
+}
+
+nav ul {
+  display: flex;  
+  align-items: center;
+}
+nav ul li{
+  padding: 0 18px;
+}
+nav ul li a{
+  font-size: 16px;
+  line-height: 44px;
+  color: #242f51;
+  font-weight: 500;
+}
+nav ul li a:hover{
+  transition: .3s ease;
+  color: #FCAE61;
+}
+.trail-btn {
+  padding: 15px 30px;
+  border-radius: 29px;
+  background-color: #2500f9;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  }
+  .trail-btn:hover {
+    transition: .3s ease;
+  }
+
+.trail-btn:hover {
+  background-color: #2f16bd;
+}
